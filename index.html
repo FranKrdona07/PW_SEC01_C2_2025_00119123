@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Libro - HTML & CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="botones">
+            <button onclick="ordenarColumnas()">Cambiar Orden Columnas</button>
+            <button onclick="cambiarTitulo()">Cambiar Título</button>
+            <button onclick="cambiarColorSubtitulo()">Cambiar Descripcion</button>
+            <button onclick="agregarImagen()">Agregar Imagen</button>
+        </div>
+
+        
+        <h1 id="titulo-principal">HTML & CSS: Curso práctico avanzado</h1>
+
+        
+        <div class="seccion-datos-contenido">
+            
+            <div class="datos-section">
+                <h3>Datos del libro</h3>
+                <div class="datos-libro">
+                <p><strong>Autor:</strong> Stephen King</p>
+                <p><strong>Editorial:</strong> Viking Press</p>
+                <p><strong>Año:</strong> 1986</p>
+                <p><strong>Páginas:</strong> 1138</p>
+                <p><strong>ISBN:</strong> 978-0-670-81302-5</p>
+            </div>
+                
+                <div id="contenedor-imagen-nueva"></div>
+            </div>
+            
+            <div class="contenido-section">
+    <h2 id="subtitulo-descripcion">Descripción del libro</h2>
+    
+    <div id="texto-descripcion">
+        <p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.        </p>
+        <p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.        </p>
+        <p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.        </p>
+    </div>
+</div>
+        </div>
+      
+        <h3>Contenido del libro</h3>
+        <div id="contenido-libro" class="contenido-columnas">
+            <div class="columna">
+                <h4>Capítulo 1</h4>
+                <p>Lorem ipsum dolor</p>
+                <p>Lorem ipsum dolor</p>
+                <p>Lorem ipsum dolor</p>
+            </div>
+            <div class="columna">
+                <h4>Capítulo 2</h4>
+                <p>Lorem ipsum dolor</p>
+                <p>Lorem ipsum dolor</p>
+                <p>Lorem ipsum dolor</p>
+            </div>
+            <div class="columna">
+                <h4>Capítulo 3</h4>
+                <p>Lorem ipsum dolor</p>
+                <p>Lorem ipsum dolor</p>
+                <p>Lorem ipsum dolor</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
